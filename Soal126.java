@@ -1,4 +1,3 @@
-Syahira Auriga Adirenata/SIB1D/264107060132
 import java.util.Scanner;
     public class Soal126 {
         public static void main (String[]args) {
@@ -18,11 +17,11 @@ import java.util.Scanner;
                     double totalNilai = 0;
 
                     for (int n = 1; n <= 3; n++) {
-                        int nilai;
+                        double nilai;
 
                         do {
                             System.out.print(" Nilai dari Mata Kuliah " + n + ": ");
-                            nilai = sc.nextInt();
+                            nilai = sc.nextDouble();
 
                             if (nilai < 0 || nilai > 100) {
                                 System.out.println(" Nilai harus 0-100. Ulangi input!");
